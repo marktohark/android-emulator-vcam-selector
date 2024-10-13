@@ -3,6 +3,7 @@ This is a tool to help x86 Android emulators such as NOX, LDPlayer, etc., select
 You may find that NOX Player, LDPlayer, or similar Android emulators do not provide a camera selection feature, which means that when using DeepFaceLive or other virtual cameras, you need to disable the hardware camera from Device Manager first.  
 This project hooks into the DirectShow camera enumeration function, allowing the Android emulator to only select the camera you want to use.  
 P.S. So far, it has only been tested on NoxPlayer (7.0.6.1), LDPlayer (9.1.23.0), and Memu Player (9.1.8.0).  
+P.S. OBS Virtual Camera can be find, but I dont know why that cant use.
 
 # Contidion
 OS: Windows 10  

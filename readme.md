@@ -11,15 +11,35 @@ LDPLayer: 9.1.23.0
 MEmu Player: 9.1.8.0
 
 # How to use
-The fastest way is to download the Release ([Download](https://github.com/marktohark/android-emulator-vcam-selector/releases/download/v1.0.0/AN9Picker.zip)), and you'll be ready to use it.
+The fastest way is to download the Release ([Download](https://github.com/marktohark/android-emulator-vcam-selector/releases/download/v1.0.0/AN9Picker.zip)), and you'll be ready to use it.  
+The following are the targets for DLL injection. Except for NOX, other emulators are handled through separate programs.  
+<table>
+  <tr>
+    <td>Emulator</td>
+    <td>DLL Inject Target</td>
+  </tr>
+  <tr>
+    <td>NOX Player 7.0.6.1</td>
+    <td>Nox/bin/Nox.exe</td>
+  </tr>
+<tr>
+    <td>LDPLayer 9.1.23.0</td>
+    <td>LDPlayer/LDPlayer9/ldcam.exe</td>
+  </tr>
+<tr>
+    <td>MEmu Player 9.1.8.0</td>
+    <td>Microvirt/MEmu/screenrecord.exe</td>
+  </tr>
+</table>
 
+Demo and use：[go to youtube](https://youtu.be/QQiNvyk9_lk)
 
 # Compile
 If you want to compile everything manually, you can refer to this.  
 ### Prepare Env
 Visual Studio 2022 ([download](https://visualstudio.microsoft.com/zh-hant/downloads/))  
 Go 1.23.0 ([download](https://go.dev/dl/))  
-Wails 2.9.2 ()
+Wails 2.9.2 ([install](https://wails.io/docs/gettingstarted/installation))  
 Detours ([github](https://github.com/microsoft/Detours))
 
 ### Project Introduction
